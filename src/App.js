@@ -11,11 +11,11 @@ function App() {
 
   const handleToggle=()=>{    
     if(type==='password'){
-      setIcon(eye);      
+      setIcon(eyeOff);      
       setType('text');
     }
     else{
-      setIcon(eyeOff);     
+      setIcon(eye);     
       setType('password');
     }
   }
